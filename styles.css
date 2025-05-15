@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#map {
+  height: 90vh;
+  width: 100%;
+}
+
+#controls {
+  padding: 10px;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.low {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.medium {
+  background-color: #FFC107;
+  color: white;
+}
+
+.high {
+  background-color: #F44336;
+  color: white;
+}
